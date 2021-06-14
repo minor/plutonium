@@ -41,3 +41,17 @@ html {
     ),
     linear-gradient(90deg, #777dff 0, #497ce2 200px, #37bdde 400px);
 }
+
+body::-webkit-scrollbar {
+  width: 0.75em;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(39, 39, 39);
+  outline: 1px solid rgb(33, 34, 34);
+}
+
+::selection {
+  background-color: #f81ce5;
+  color: #fefefe;
+}

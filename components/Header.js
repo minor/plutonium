@@ -106,7 +106,7 @@ export default function Header() {
             href="#"
             rel="noopener noreferrer"
             target="_blank"
-            className="invisible mr-4 text-black dark:text-gray-300 md:visible"
+            className="invisible mr-4 text-black border px-3 py-1.5 rounded dark:text-gray-300 md:visible"
           >
             Sign in
           </a>

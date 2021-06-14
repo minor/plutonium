@@ -96,15 +96,13 @@ export default function Footer() {
           <a
             aria-label="github"
             className="ml-3"
-            href="https://github.com/envisionnew/"
+            href="https://github.com/minor/plutonium/"
           >
             <svg
-              data-v-54e46119=""
               width="30"
               height="20"
               viewBox="0 0 25 24"
               fill="none"
-              xmlns="http://www.w3.org/2000/svg"
               title="GitHub logo"
               className="w-5 h-5"
             >

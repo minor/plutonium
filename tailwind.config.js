@@ -5,7 +5,7 @@ module.exports = {
   purge: ["./pages/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
   darkMode: "class", // or 'media' or 'false'
   theme: {
-    extend: { colors: { cyan: colors.cyan } },
+    extend: { colors: { cyan: colors.cyan }, zIndex: { "-1": -1 } },
   },
   variants: {
     extend: {},
