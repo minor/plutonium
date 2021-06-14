@@ -17,12 +17,12 @@ export default function Header() {
         <div className="flex flex-row items-center justify-between p-2 md:p-1">
           <a
             href="/"
-            className="mb-4 text-2xl font-medium text-black dark:text-white md:mb-0"
+            className="mb-4 text-2xl font-medium text-black dark:text-gray-300 md:mb-0"
           >
             PLUTONIUM
           </a>
           <button
-            className="px-3 py-1 pb-4 ml-auto text-black outline-none dark:text-white md:hidden"
+            className="px-3 py-1 pb-4 ml-auto text-black outline-none dark:text-gray-300 md:hidden"
             type="button"
             aria-label="button"
             onClick={() => setNavbarOpen(!navbarOpen)}
@@ -53,19 +53,19 @@ export default function Header() {
           <div className="flex flex-wrap items-center justify-center pt-1 pl-2 ml-1 space-x-8 md:space-x-16 md:mx-auto md:pl-14">
             <a
               href="#"
-              className="text-black transition duration-300 dark:text-white hover:text-white"
+              className="text-black transition duration-300 dark:text-gray-300 hover:text-gray-300"
             >
               Features
             </a>
             <a
               href="#"
-              className="text-black transition duration-300 dark:text-white hover:text-white"
+              className="text-black transition duration-300 dark:text-gray-300 hover:text-gray-300"
             >
               Pricing
             </a>
             <a
               href="#"
-              className="text-black transition duration-300 dark:text-white hover:text-white"
+              className="text-black transition duration-300 dark:text-gray-300 hover:text-gray-300"
             >
               Demo
             </a>
@@ -106,7 +106,7 @@ export default function Header() {
             href="#"
             rel="noopener noreferrer"
             target="_blank"
-            className="invisible mr-4 text-black dark:text-white md:visible"
+            className="invisible mr-4 text-black dark:text-gray-300 md:visible"
           >
             Sign in
           </a>
@@ -114,7 +114,7 @@ export default function Header() {
             href="#"
             rel="noopener noreferrer"
             target="_blank"
-            className="invisible md:visible px-3 py-1.5 text-white bg-black rounded"
+            className="invisible md:visible px-3 py-1.5 transition-colors hover:bg-gray-800 dark:hover:bg-gray-200 text-white dark:text-black bg-black dark:bg-white rounded"
           >
             Sign up
           </a>
