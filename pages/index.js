@@ -35,7 +35,7 @@ export default function Home() {
             </p>
             <div className="mt-6 ml-6 text-center">
               <a
-                className="inline-flex items-center px-5 py-3 text-sm font-medium text-gray-300 bg-black rounded dark:text-gray-700 dark:bg-white"
+                className="inline-flex items-center px-5 py-3 text-sm font-medium text-gray-300 transition duration-300 bg-black rounded hover:bg-gray-800 dark:hover:bg-gray-200 dark:text-gray-700 dark:bg-white"
                 aria-label="learn more"
                 href="https://github.com/minor/plutonium/"
               >
@@ -43,7 +43,7 @@ export default function Home() {
               </a>
               <br className="sm:hidden" />
               <a
-                className="inline-flex items-center px-5 py-3 mt-2 ml-0 text-sm font-medium text-gray-700 border rounded md:ml-2 dark:text-gray-300"
+                className="inline-flex items-center px-5 py-3 mt-2 ml-0 text-sm font-medium text-gray-700 transition duration-300 border rounded shadow dark:hover:border-gray-500 hover:shadow-md md:ml-2 dark:text-gray-300"
                 aria-label="learn more"
                 href="#"
               >
@@ -51,7 +51,7 @@ export default function Home() {
               </a>
             </div>
           </div>
-          <div className="relative w-full mx-auto text-center md:my-12 md:w-10/12">
+          <div className="relative w-full py-10 mx-auto text-center md:py-32 md:my-12 md:w-10/12">
             <div className="relative z-10">
               <a target="_blank" href="https://unsplash.com/photos/e9TrFZZ72DQ">
                 <img
