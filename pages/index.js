@@ -5,7 +5,7 @@ import { NextSeo } from "next-seo";
 
 export default function Home() {
   return (
-    <div className="min-h-screen text-black bg-white dark:bg-black">
+    <>
       <NextSeo
         title="Plutonium"
         description="Plutonium – where darkness meets the web."
@@ -19,7 +19,7 @@ export default function Home() {
       </Head>
       <Header />
       <section className="relative">
-        <div className="px-4 py-10 mx-auto max-w-7xl md:py-32">
+        <div className="px-4 py-10 mx-auto max-w-7xl md:py-16">
           <div className="w-full pb-5 mx-auto text-center md:w-11/12">
             <h1 className="mb-3 text-5xl font-bold tracking-tight text-gray-900 dark:text-gray-100 md:text-6xl">
               Bringing darkness
@@ -72,6 +72,6 @@ export default function Home() {
         ></div>
       </section>
       <Footer />
-    </div>
+    </>
   );
 }
