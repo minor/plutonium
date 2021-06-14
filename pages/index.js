@@ -24,7 +24,7 @@ export default function Home() {
             <h1 className="mb-3 text-5xl font-bold tracking-tight text-gray-900 dark:text-gray-100 md:text-6xl">
               Bringing darkness
               <br />
-              <span className="block w-full text-transparent bg-clip-text gradient-bg lg:inline">
+              <span className="block w-full text-transparent bg-clip-text bg-gradient-to-r dark:bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 dark:from-pink-400 dark:via-purple-400 dark:to-indigo-400 lg:inline">
                 straight to the web.
               </span>
             </h1>
@@ -53,7 +53,7 @@ export default function Home() {
           </div>
           <div className="relative w-full mx-auto text-center md:my-12 md:w-10/12">
             <div className="relative z-10">
-              <a href="https://unsplash.com/photos/e9TrFZZ72DQ">
+              <a target="_blank" href="https://unsplash.com/photos/e9TrFZZ72DQ">
                 <img
                   className="transition duration-700 shadow-xl rounded-xl ring-1 ring-black ring-opacity-5 hover:transform hover:scale-105"
                   src="/images/placeholder.jpeg"
@@ -69,7 +69,7 @@ export default function Home() {
         <div
           style={{ backgroundImage: "url(/images/blur.png)" }}
           className="absolute inset-0 w-full h-full bg-bottom bg-no-repeat bg-cover -z-1"
-        ></div>
+        />
       </section>
       <Footer />
     </>

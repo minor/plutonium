@@ -4,7 +4,7 @@ export default function Footer() {
   const router = useRouter();
   return (
     <footer className="text-black dark:text-gray-300 body-font">
-      <div className="w-3/5 h-px mx-auto mt-5 mb-4 md:w-2/3 gradient-bg"></div>
+      <div className="w-3/5 h-px mx-auto mt-5 mb-4 md:w-2/3 bg-gradient-to-r from-pink-500 via-purple-500 to-red-500"></div>
       <div className="container flex flex-col items-center px-5 pb-8 mx-auto md:px-28 sm:flex-row">
         <a
           className="flex items-center justify-center font-medium title-font md:justify-start"

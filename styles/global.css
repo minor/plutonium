@@ -32,16 +32,6 @@ html {
   transition: background-color 0.1 ease-in-out !important;
 }
 
-.gradient-bg {
-  background-image: linear-gradient(
-      270deg,
-      #777dff 0,
-      #f154ff 200px,
-      #f0357c 400px
-    ),
-    linear-gradient(90deg, #777dff 0, #497ce2 200px, #37bdde 400px);
-}
-
 body::-webkit-scrollbar {
   width: 0.75em;
 }

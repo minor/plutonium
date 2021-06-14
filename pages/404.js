@@ -20,9 +20,12 @@ export default function Error() {
           <p className="mb-4 text-xl font-bold leading-normal md:text-2xl">
             There was an error finding your page.
           </p>
-          <p className="mb-8 text-md">Please return home & try again!</p>
+          <p className="max-w-sm mb-8 text-md">
+            Plutonium doesn't devle well with generic 404 pages – hence: this
+            page.
+          </p>
           <Link href="/">
-            <a className="px-4 py-2.5 text-white transition-colors border border-transparent rounded-lg shadow bg-cyan-600 hover:bg-cyan-700 dark:hover:bg-blue-500">
+            <a className="px-4 py-2.5 text-black dark:text-white border dark:hover:bg-white dark:hover:text-black rounded-lg shadow transition duration-300 hover:shadow-md">
               Return Home
             </a>
           </Link>
