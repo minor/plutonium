@@ -17,7 +17,7 @@ export default function Header() {
         <div className="flex flex-row items-center justify-between p-2 md:p-1">
           <a
             href="/"
-            className="mb-4 text-2xl font-medium text-black dark:text-gray-300 md:mb-0"
+            className="mb-4 text-2xl font-medium text-black transition duration-300 hover:text-gray-300 dark:text-gray-300 dark:hover:text-white md:mb-0"
           >
             PLUTONIUM
           </a>
@@ -106,7 +106,7 @@ export default function Header() {
             href="#"
             rel="noopener noreferrer"
             target="_blank"
-            className="invisible mr-4 text-black border px-3 py-1.5 rounded dark:text-gray-300 md:visible"
+            className="invisible dark:hover:border-gray-500 hover:shadow-md transition duration-300 mr-4 text-black border px-3 py-1.5 rounded dark:text-gray-300 md:visible"
           >
             Sign in
           </a>

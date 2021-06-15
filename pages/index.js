@@ -19,7 +19,7 @@ export default function Home() {
       </Head>
       <Header />
       <section className="relative">
-        <div className="px-4 py-10 mx-auto max-w-7xl md:py-16">
+        <div className="px-4 pt-10 mx-auto max-w-7xl md:pt-16">
           <div className="w-full pb-5 mx-auto text-center md:w-11/12">
             <h1 className="mb-3 text-5xl font-bold tracking-tight text-gray-900 dark:text-gray-100 md:text-6xl">
               Bringing darkness
@@ -70,6 +70,27 @@ export default function Home() {
           style={{ backgroundImage: "url(/images/blur.png)" }}
           className="absolute inset-0 w-full h-full bg-bottom bg-no-repeat bg-cover -z-1"
         />
+      </section>
+      <section className="py-2" id="sponsors">
+        <div className="px-4 py-16 mx-auto max-w-7xl sm:px-6 lg:px-8">
+          <h1 className="mb-20 text-3xl font-bold tracking-tight text-center text-gray-700 dark:text-gray-300 md:text-4xl">
+            Sponsored with forward-thinking companies.
+          </h1>
+          <div className="grid grid-cols-2 gap-8 mt-6 md:grid-cols-4">
+            <div className="flex justify-center col-span-1 md:col-span-2 lg:col-span-1">
+              <img className="h-24" src="/logos/amazon.svg" alt="Tuple" />
+            </div>
+            <div className="flex justify-center col-span-1 md:col-span-2 lg:col-span-1">
+              <img className="h-24" src="/logos/google.svg" alt="Mirage" />
+            </div>
+            <div className="flex justify-center col-span-1 md:col-span-2 lg:col-span-1">
+              <img className="h-24" src="/logos/intel.svg" alt="StaticKit" />
+            </div>
+            <div className="flex justify-center col-span-1 md:col-span-2 md:col-start-2 lg:col-span-1">
+              <img className="h-24" src="/logos/apple.svg" alt="Transistor" />
+            </div>
+          </div>
+        </div>
       </section>
       <Footer />
     </>
