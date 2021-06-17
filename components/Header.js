@@ -12,7 +12,7 @@ export default function Header() {
   if (!mounted) return null;
 
   return (
-    <header className="fixed top-0 z-50 w-full sticky-nav">
+    <header className="w-full sticky-nav">
       <div className="flex flex-col flex-wrap max-w-5xl p-2.5 mx-auto md:flex-row">
         <div className="flex flex-row items-center justify-between p-2 md:p-1">
           <a
@@ -52,7 +52,7 @@ export default function Header() {
         >
           <div className="flex flex-wrap items-center justify-center pt-1 pl-2 ml-1 space-x-8 md:space-x-16 md:mx-auto md:pl-14">
             <a
-              href="#"
+              href="#features"
               className="text-black transition duration-300 dark:text-gray-300 hover:text-gray-300"
             >
               Features
@@ -73,7 +73,7 @@ export default function Header() {
           <button
             aria-label="Toggle Dark Mode"
             type="button"
-            className="w-10 h-10 p-3 mr-5 bg-gray-200 rounded dark:bg-gray-800"
+            className="w-10 h-10 p-3 ml-5 mr-0 bg-gray-200 rounded md:ml-0 md:mr-5 dark:bg-gray-800"
             onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
           >
             {mounted && (

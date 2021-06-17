@@ -6,7 +6,13 @@ module.exports = {
   darkMode: "class", // or 'media' or 'false'
   theme: {
     extend: {
-      colors: { cyan: colors.cyan, pink: colors.pink },
+      colors: {
+        lightBlue: colors.lightBlue,
+        cyan: colors.cyan,
+        pink: colors.pink,
+        rose: colors.rose,
+        fuchsia: colors.fuchsia,
+      },
       zIndex: { "-1": -1 },
     },
   },
