@@ -41,7 +41,7 @@ export default function Pricing() {
           or portfolio. We don&apos;t take a single penny.
         </p>
         <div className="grid grid-cols-1 gap-4 md:grid-cols-3">
-          <div className="p-5 mb-10 space-y-6 border shadow-md rounded-2xl">
+          <div className="p-5 mt-5 mb-10 space-y-6 border shadow-md rounded-2xl">
             <h1 className="text-xl font-bold text-center text-teal-600 dark:text-teal-300 md:text-2xl sm:text-left">
               Hobby
             </h1>
@@ -103,7 +103,7 @@ export default function Pricing() {
               </ul>
             </p>
           </div>
-          <div className="p-5 mb-10 space-y-6 border shadow-md rounded-2xl">
+          <div className="p-5 mt-5 mb-10 space-y-6 border shadow-md rounded-2xl">
             <h1 className="text-xl font-bold text-center text-teal-600 dark:text-teal-300 md:text-2xl sm:text-left">
               Enterprise
             </h1>
