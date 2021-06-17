@@ -1,10 +1,11 @@
 import Head from "next/head";
+import Link from "next/link";
+import { NextSeo } from "next-seo";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import Sponsors from "../components/Sponsors";
 import Features from "../components/Features";
 import Pricing from "../components/Pricing";
-import { NextSeo } from "next-seo";
 
 export default function Home() {
   return (
@@ -14,7 +15,18 @@ export default function Home() {
         description="Plutonium – where darkness meets the web."
         canonical="https://plutonium.saurish.com/"
         openGraph={{
-          url: "https://plutionium.saurish.com/",
+          url: "https://www.plutonium.saurish.com",
+          title: "Plutonium",
+          description: "Plutonium – where darkness meets the web.",
+          images: {
+            url: "https://og.saurish.com/**Plutonium**.png?theme=dark&md=1&fontSize=150px&images=https%3A%2F%2Fsaurish.com%2Flogos%2Flogo.png&images=https%3A%2F%2Fplutonium.saurish.com%2Fplutonium.jpeg",
+          },
+          site_name: "Plutonium",
+        }}
+        twitter={{
+          handle: "@saurishhh",
+          site: "https://plutonium.saurish.com",
+          cardType: "summary_large_image",
         }}
       />
       <Head>
@@ -51,13 +63,14 @@ export default function Home() {
                 <span className="flex justify-center">Learn More</span>
               </a>
               <br className="sm:hidden" />
-              <a
-                className="inline-flex items-center px-5 py-3 mt-2 ml-0 text-sm font-medium text-gray-700 transition duration-300 border rounded shadow dark:hover:border-gray-500 hover:shadow-md md:ml-2 dark:text-gray-300"
-                aria-label="learn more"
-                href="#"
-              >
-                <span className="flex justify-center">See a Demo</span>
-              </a>
+              <Link href="404">
+                <a
+                  className="inline-flex items-center px-5 py-3 mt-2 ml-0 text-sm font-medium text-gray-700 transition duration-300 border rounded shadow dark:hover:border-gray-500 hover:shadow-md md:ml-2 dark:text-gray-300"
+                  aria-label="learn more"
+                >
+                  <span className="flex justify-center">See a Demo</span>
+                </a>
+              </Link>
             </div>
           </div>
           <div className="relative w-full py-10 mx-auto text-center md:py-32 md:my-12 md:w-10/12">

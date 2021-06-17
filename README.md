@@ -1,29 +1,40 @@
-# Next.js + Tailwind CSS Example
+## Plutonium – where darkness meets the web.
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) (v2.1) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Fminor%2Fplutonium)
 
-It uses the new [`Just-in-Time Mode`](https://tailwindcss.com/docs/just-in-time-mode) for Tailwind CSS.
+![Home Page](/.github/home-dark.png?raw=true "Home Page [Dark]")
 
-## Preview
+Hey, there! This is a free website template created with Next.js 11 and styled with TailwindCSS (with Just-In-Time mode!). It has built-in support for dark mode and Next-SEO for the perfect SEO optimizations. The project is available at: [https://plutonium.saurish.com](https://plutonium.saurish.com).
 
-Preview the example live on [StackBlitz](http://stackblitz.com/):
+### Built With
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+This website is built with the following services:
 
-## Deploy your own
+- [Next.js](https://nextjs.org)
+- [Next-Themes](https://github.com/pacocoursey/next-themes)
+- [Next-SEO](https://github.com/garmeeh/next-seo)
+- [TailwindCSS](https://tailwindcss.com)
+- [Vercel](https://vercel.com)
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
+## Replication
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
-
-## How to use
-
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
+### Installation
 
 ```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-# or
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
+$ git clone https://github.com/minor/plutonium.git
+$ cd plutonium
+$ yarn (or npm install)
+$ yarn dev (or npm run dev)
 ```
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+Now you can start editing!
+
+## Contact
+
+Let me know if you do end up using anything from here – would be neat to know!
+
+Email - [me@saurish.com](mailto:me@saurish.com)
+
+Twitter - [@saurishhh](https://twitter.com/saurishhh)
+
+Project Link: [https://github.com/minor/plutonium](https://github.com/minor/plutonium)

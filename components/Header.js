@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { useTheme } from "next-themes";
+import Link from "next/link";
 
 export default function Header() {
   const [navbarOpen, setNavbarOpen] = useState(false);
@@ -63,12 +64,11 @@ export default function Header() {
             >
               Pricing
             </a>
-            <a
-              href="#"
-              className="text-black transition duration-300 dark:text-gray-300 hover:text-gray-300"
-            >
-              Demo
-            </a>
+            <Link href="404">
+              <a className="text-black transition duration-300 dark:text-gray-300 hover:text-gray-300">
+                Demo
+              </a>
+            </Link>
           </div>
           <button
             aria-label="Toggle Dark Mode"
