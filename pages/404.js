@@ -10,8 +10,8 @@ export default function Error() {
       <Head>
         <title>404: Page was not found.</title>
       </Head>
-      <div className="flex flex-col items-center justify-center h-[50vh] px-10 md:justify-center md:items-center md:flex-row md:space-x-6 md:mt-24">
-        <div className="pt-6 pb-8 space-x-2 md:space-y-5">
+      <div className="flex flex-col items-center justify-center h-[90vh] px-10 bg-white dark:bg-black md:justify-center md:items-center md:flex-row md:space-x-6">
+        <div className="space-x-2">
           <h1 className="text-6xl font-bold text-gray-900 dark:text-gray-100 md:text-8xl md:border-r-2 md:px-6">
             404
           </h1>

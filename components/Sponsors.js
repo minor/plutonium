@@ -1,6 +1,6 @@
 export default function Sponsors() {
   return (
-    <section className="pb-10" id="sponsors">
+    <section className="pb-10 bg-white dark:bg-black" id="sponsors">
       <div className="px-4 pb-16 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <h1 className="mb-16 text-2xl font-bold tracking-normal text-center text-gray-800 md:leading-tight md:tracking-normal dark:text-gray-200 md:text-4xl">
           Sponsored by forward-thinking companies.
