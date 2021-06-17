@@ -58,7 +58,7 @@ export default function Header() {
               Features
             </a>
             <a
-              href="#"
+              href="#pricing"
               className="text-black transition duration-300 dark:text-gray-300 hover:text-gray-300"
             >
               Pricing
