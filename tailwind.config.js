@@ -11,6 +11,7 @@ module.exports = {
         cyan: colors.cyan,
         pink: colors.pink,
         rose: colors.rose,
+        teal: colors.teal,
         fuchsia: colors.fuchsia,
       },
       zIndex: { "-1": -1 },

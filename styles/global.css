@@ -45,12 +45,3 @@ body::-webkit-scrollbar-thumb {
   background-color: #f81ce5;
   color: #fefefe;
 }
-
-.border-gradient {
-  border-image: linear-gradient(
-    90deg,
-    rgb(236, 72, 153),
-    rgb(168, 85, 247),
-    rgb(239, 68, 68)
-  );
-}
