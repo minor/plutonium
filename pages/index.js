@@ -18,9 +18,11 @@ export default function Home() {
           url: "https://www.plutonium.saurish.com",
           title: "Plutonium",
           description: "Plutonium – where darkness meets the web.",
-          images: {
-            url: "https://og.saurish.com/**Plutonium**.png?theme=dark&md=1&fontSize=150px&images=https%3A%2F%2Fsaurish.com%2Flogos%2Flogo.png&images=https%3A%2F%2Fplutonium.saurish.com%2Fplutonium.jpeg",
-          },
+          images: [
+            {
+              url: "https://og.saurish.com/**Plutonium**.png?theme=dark&md=1&fontSize=150px&images=https%3A%2F%2Fsaurish.com%2Flogos%2Flogo.png&images=https%3A%2F%2Fplutonium.saurish.com%2Fplutonium.jpeg",
+            },
+          ],
           site_name: "Plutonium",
         }}
         twitter={{
