@@ -23,7 +23,11 @@ export default function Features() {
               Next.js 11
             </h1>
             <div className="h-auto">
-              <a href="https://unsplash.com/photos/ymVslcVAzg8" target="_blank">
+              <a
+                href="https://unsplash.com/photos/ymVslcVAzg8"
+                rel="noreferrer"
+                target="_blank"
+              >
                 <img
                   className="transition duration-700 rounded shadow-2xl h-80 hover:shadow-3xl md:hover:transform md:hover:scale-105"
                   src="/images/placeholder-2.webp"
@@ -63,7 +67,11 @@ export default function Features() {
               TailwindCSS JIT
             </h1>
             <div className="h-auto">
-              <a href="https://unsplash.com/photos/qOEiV-8w-MQ" target="_blank">
+              <a
+                href="https://unsplash.com/photos/qOEiV-8w-MQ"
+                rel="noreferrer"
+                target="_blank"
+              >
                 <img
                   className="transition duration-700 rounded shadow-2xl h-80 hover:shadow-3xl md:hover:transform md:hover:scale-105"
                   src="/images/placeholder-3.webp"
@@ -106,7 +114,11 @@ export default function Features() {
               Dark Mode
             </h1>
             <div className="h-auto">
-              <a href="https://unsplash.com/photos/p7o0qrl8hv8" target="_blank">
+              <a
+                href="https://unsplash.com/photos/p7o0qrl8hv8"
+                rel="noreferrer"
+                target="_blank"
+              >
                 <img
                   className="transition duration-700 rounded shadow-2xl h-80 hover:shadow-3xl md:hover:transform md:hover:scale-105"
                   src="/images/placeholder-4.webp"
@@ -148,7 +160,11 @@ export default function Features() {
               Next-SEO
             </h1>
             <div className="h-auto">
-              <a href="https://unsplash.com/photos/_CrD1UmfWqc" target="_blank">
+              <a
+                href="https://unsplash.com/photos/_CrD1UmfWqc"
+                rel="noreferrer"
+                target="_blank"
+              >
                 <img
                   className="transition duration-700 rounded shadow-2xl h-80 hover:shadow-3xl md:hover:transform md:hover:scale-105"
                   src="/images/placeholder-5.webp"
@@ -162,6 +178,7 @@ export default function Features() {
                   <a
                     href="https://github.com/garmeeh/next-seo"
                     target="_blank"
+                    rel="noreferrer"
                     className="font-semibold"
                   >
                     next-seo

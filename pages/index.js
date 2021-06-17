@@ -58,6 +58,7 @@ export default function Home() {
               <a
                 className="inline-flex items-center px-5 py-3 text-sm font-medium text-gray-300 transition duration-300 bg-black rounded hover:bg-gray-800 dark:hover:bg-gray-200 dark:text-gray-700 dark:bg-white"
                 aria-label="learn more"
+                rel="noreferrer"
                 href="https://github.com/minor/plutonium/"
               >
                 <span className="flex justify-center">Learn More</span>
@@ -75,7 +76,11 @@ export default function Home() {
           </div>
           <div className="relative w-full py-10 mx-auto text-center md:py-32 md:my-12 md:w-10/12">
             <div className="relative z-10">
-              <a target="_blank" href="https://unsplash.com/photos/e9TrFZZ72DQ">
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://unsplash.com/photos/e9TrFZZ72DQ"
+              >
                 <img
                   className="transition duration-700 shadow-xl rounded-xl ring-1 ring-black ring-opacity-5 hover:transform hover:scale-105"
                   src="/images/placeholder.webp"

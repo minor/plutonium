@@ -38,7 +38,7 @@ export default function Pricing() {
         </h1>
         <p className="max-w-md mx-auto mb-12 text-lg text-gray-600 dark:text-gray-400 md:text-lg">
           Plutonium is a <b>free</b> template to kickstart your app, business,
-          or portfolio. We don't take a single penny.
+          or portfolio. We don&apos;t take a single penny.
         </p>
         <div className="grid grid-cols-1 gap-4 md:grid-cols-3">
           <div className="p-5 mb-10 space-y-6 border shadow-md rounded-2xl">
@@ -62,7 +62,7 @@ export default function Pricing() {
             </div>
             <div className="w-full border border-gray-300 dark:border-gray-500" />
             <h1 className="text-sm font-semibold text-gray-500 uppercase">
-              What's included
+              What&apos;s included
             </h1>
             <p className="font-normal text-gray-500 dark:text-gray-400 text-md">
               <ul>
@@ -92,7 +92,7 @@ export default function Pricing() {
             </div>
             <div className="w-full border border-gray-300 dark:border-gray-500" />
             <h1 className="text-sm font-semibold text-gray-500 uppercase">
-              What's included
+              What&apos;s included
             </h1>
             <p className="font-normal text-gray-500 dark:text-gray-400 text-md">
               <ul>
@@ -124,7 +124,7 @@ export default function Pricing() {
             </div>
             <div className="w-full border border-gray-300 dark:border-gray-500" />
             <h1 className="text-sm font-semibold text-gray-500 uppercase">
-              What's included
+              What&apos;s included
             </h1>
             <p className="font-normal text-gray-500 dark:text-gray-400 text-md">
               <ul>
