@@ -91,7 +91,7 @@ export default function Home() {
               </a>
             </div>
             <p className="z-10 my-8 text-sm font-medium text-gray-500">
-              Maybe we're bringing brightness too?
+              Maybe we&apos;re bringing brightness too?
             </p>
           </div>
         </div>

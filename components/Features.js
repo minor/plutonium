@@ -14,8 +14,8 @@ export default function Features() {
           features.
         </h1>
         <p className="max-w-md mx-auto mb-10 text-lg text-gray-600 dark:text-gray-400 md:text-lg">
-          We're introducing a new wave of template designs that sky-rocket the
-          interaction between users and <b>your</b> app.
+          We&apos;re introducing a new wave of template designs that sky-rocket
+          the interaction between users and <b>your</b> app.
         </p>
         <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
           <div className="mb-10 space-y-6">
@@ -103,7 +103,7 @@ export default function Features() {
                 </li>
                 <li className="mb-2">
                   <span className="text-purple-500 dark:text-purple-400 px-1 py-0.75 border border-gray-200 dark:border-gray-800 rounded-md bg-gray-100 dark:bg-gray-900">
-                    `mode: 'jit'`
+                    `mode: &apos;jit&apos;`
                   </span>
                 </li>
               </ul>
@@ -132,6 +132,7 @@ export default function Features() {
                   <a
                     href="https://github.com/pacocoursey/next-themes"
                     target="_blank"
+                    rel="noreferrer"
                     className="font-semibold"
                   >
                     next-themes
