@@ -9,7 +9,7 @@ import Pricing from "../components/Pricing";
 
 export default function Home() {
   return (
-    <>
+    <div className="bg-white dark:bg-black">
       <NextSeo
         title="Plutonium"
         description="Plutonium – where darkness meets the web."
@@ -41,7 +41,7 @@ export default function Home() {
         ></script>
       </Head>
       <Header />
-      <section className="relative bg-white dark:bg-black">
+      <section className="relative">
         <div className="px-4 pt-10 mx-auto max-w-7xl md:pt-16">
           <div className="w-full pb-5 mx-auto text-center md:w-11/12">
             <h1 className="mb-3 text-5xl font-bold tracking-tight text-gray-900 dark:text-gray-100 md:text-6xl">
@@ -104,6 +104,6 @@ export default function Home() {
       <Features />
       <Pricing />
       <Footer />
-    </>
+    </div>
   );
 }

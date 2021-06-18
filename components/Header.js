@@ -13,7 +13,7 @@ export default function Header() {
   if (!mounted) return null;
 
   return (
-    <header className="w-full bg-white dark:bg-black sticky-nav">
+    <header className="w-full sticky-nav">
       <div className="flex flex-col flex-wrap max-w-5xl p-2.5 mx-auto md:flex-row">
         <div className="flex flex-row items-center justify-between p-2 md:p-1">
           <a
