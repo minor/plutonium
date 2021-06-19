@@ -5,10 +5,12 @@ export default function Footer() {
   const router = useRouter();
   return (
     <footer className="text-black dark:text-gray-300 body-font">
-      <div className="w-2/5 h-px mx-auto mt-5 mb-4 sm:w-11/12 md:w-9/12 lg:w-10/12 bg-gradient-to-r from-pink-500 via-purple-500 to-red-500"></div>
+      <div className="w-2/5 h-px mx-auto mt-5 mb-4 sm:w-11/12 md:w-9/12 lg:w-10/12 xl:w-8/12 bg-gradient-to-r from-pink-500 via-purple-500 to-red-500" />
       <div className="container flex flex-col items-center px-5 pb-8 mx-auto lg:px-16 sm:flex-row">
         <Link href="/">
-          <a className="flex items-center justify-center text-xl font-medium title-font md:ml-3 md:justify-start"></a>
+          <a className="flex items-center justify-center text-xl font-medium title-font md:ml-3 md:justify-start">
+            PLUTONIUM
+          </a>
         </Link>
         <div className="invisible h-5 ml-4 border-l border-black md:visible dark:border-gray-300"></div>
         <a
