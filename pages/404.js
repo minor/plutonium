@@ -5,12 +5,12 @@ import Link from "next/link";
 
 export default function Error() {
   return (
-    <>
+    <div className="bg-white dark:bg-black">
       <Header />
       <Head>
         <title>404: Page was not found.</title>
       </Head>
-      <div className="flex flex-col items-center justify-center h-[90vh] px-10 bg-white dark:bg-black md:justify-center md:items-center md:flex-row md:space-x-6">
+      <div className="flex flex-col items-center justify-center px-10 bg-white h-[90vh] dark:bg-black md:flex-row md:space-x-6">
         <div className="space-x-2">
           <h1 className="text-6xl font-bold text-gray-900 dark:text-gray-100 md:text-8xl md:border-r-2 md:px-6">
             404
@@ -22,7 +22,7 @@ export default function Error() {
           </p>
           <p className="max-w-sm mb-8 text-md">
             Plutonium doesn&apos;t devle well with generic 404 pages – hence:
-            this page.
+            this page. If you're here from clicking demo: it was on purpose!
           </p>
           <Link href="/">
             <a className="px-4 py-2.5 text-black dark:text-white border dark:hover:bg-white dark:hover:text-black rounded-lg shadow transition duration-300 hover:shadow-md">
@@ -32,6 +32,6 @@ export default function Error() {
         </div>
       </div>
       <Footer />
-    </>
+    </div>
   );
 }

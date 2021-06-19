@@ -64,7 +64,7 @@ export default function Header() {
             >
               Pricing
             </a>
-            <Link href="404">
+            <Link href="/404">
               <a className="text-black transition duration-300 dark:text-gray-300 hover:text-gray-300">
                 Demo
               </a>

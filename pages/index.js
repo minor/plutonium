@@ -63,7 +63,7 @@ export default function Home() {
                 rel="noreferrer"
                 href="https://github.com/minor/plutonium/"
               >
-                <span className="flex justify-center">Learn More</span>
+                <span className="flex justify-center">GitHub Link</span>
               </a>
               <br className="sm:hidden" />
               <Link href="404">
