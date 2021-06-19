@@ -56,7 +56,7 @@ export default function Home() {
               built-in dark-mode support, configured Next-SEO for the best SEO
               optimizations, and clean, organized, easy-to-edit code.
             </p>
-            <div className="mt-6 ml-6 text-center">
+            <div className="mt-6 text-center md:ml-6">
               <a
                 className="inline-flex items-center px-5 py-3 text-sm font-medium text-gray-300 transition duration-300 bg-black rounded hover:bg-gray-800 dark:hover:bg-gray-200 dark:text-gray-700 dark:bg-white"
                 aria-label="learn more"
