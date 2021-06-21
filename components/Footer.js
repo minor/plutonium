@@ -5,16 +5,15 @@ export default function Footer() {
   const router = useRouter();
   return (
     <footer className="text-black dark:text-gray-300 body-font">
-      <div className="w-2/5 h-px mx-auto mt-5 mb-4 sm:w-11/12 md:w-9/12 lg:w-10/12 xl:w-8/12 2xl:w-11/12 bg-gradient-to-r from-pink-500 via-purple-500 to-red-500" />
-      <div className="container flex flex-col items-center px-5 pb-8 mx-auto lg:px-16 sm:flex-row">
+      <div className="container flex flex-col items-center px-10 pb-8 mx-auto border-t border-purple-600 dark:border-purple-300 sm:flex-row">
         <Link href="/">
-          <a className="flex items-center justify-center text-xl font-medium title-font md:ml-3 md:justify-start">
+          <a className="flex items-center justify-center mt-2 text-xl font-medium title-font md:ml-3 md:justify-start">
             PLUTONIUM
           </a>
         </Link>
         <div className="invisible h-5 ml-4 border-l border-black md:visible dark:border-gray-300"></div>
         <a
-          className="flex items-center justify-center font-medium title-font md:justify-start"
+          className="flex items-center justify-center mt-2 font-medium title-font md:justify-start"
           href={
             router.pathname === "/"
               ? `https://github.com/minor/plutonium/edit/main/pages/index.js`
@@ -23,7 +22,7 @@ export default function Footer() {
         >
           <span className="text-sm md:ml-5">Edit on GitHub</span>
         </a>
-        <span className="inline-flex justify-center mt-4 sm:ml-auto sm:mt-0 sm:justify-start">
+        <span className="inline-flex justify-center mt-4 sm:ml-auto sm:mt-2 sm:justify-start">
           <a
             aria-label="mail"
             href="maito:me@saurish.com?subject=From Plutonium!"
