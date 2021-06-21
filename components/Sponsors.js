@@ -29,8 +29,8 @@ export default function Sponsors() {
               <text
                 transform="translate(16.21 144.88)"
                 fill="#fff"
-                font-size="165"
-                font-family="Osaka"
+                fontSize="165"
+                fontFamily="Osaka"
               >
                 ss
               </text>
@@ -47,8 +47,8 @@ export default function Sponsors() {
               <text
                 transform="translate(16.21 144.88)"
                 fill="#fff"
-                font-size="165"
-                font-family="Osaka"
+                fontSize="165"
+                fontFamily="Osaka"
               >
                 ss
               </text>
@@ -65,8 +65,8 @@ export default function Sponsors() {
               <text
                 transform="translate(16.21 144.88)"
                 fill="#fff"
-                font-size="165"
-                font-family="Osaka"
+                fontSize="165"
+                fontFamily="Osaka"
               >
                 ss
               </text>
@@ -83,8 +83,8 @@ export default function Sponsors() {
               <text
                 transform="translate(16.21 144.88)"
                 fill="#fff"
-                font-size="165"
-                font-family="Osaka"
+                fontSize="165"
+                fontFamily="Osaka"
               >
                 ss
               </text>
