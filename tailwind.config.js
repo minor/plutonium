@@ -13,8 +13,7 @@ module.exports = {
         rose: colors.rose,
         teal: colors.teal,
         fuchsia: colors.fuchsia,
-      },
-      zIndex: { "-1": -1 },
+      }
     },
   },
   variants: {
