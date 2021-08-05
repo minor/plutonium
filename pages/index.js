@@ -33,11 +33,12 @@ export default function Home() {
       />
       <Head>
         <link rel="icon" href="/favicon.ico" />
+        {/* Cookie-less tracking, view here: https://umami.saurish.com/share/xo8024t2/Plutonium */}
         <script
           async
           defer
-          src="https://aurora.saurish.com/aurora.js"
-          aurora-id="b46b1e570b88922ca7304cfcdb6127b9"
+          data-website-id="e4bcc07c-eea7-461d-890b-5fb528350075"
+          src="https://umami.saurish.com/umami.js"
         ></script>
       </Head>
       <Header />
