@@ -5,17 +5,9 @@ export default function Sponsors() {
         <h1 className="mb-8 text-2xl font-bold tracking-normal text-center text-gray-800 md:leading-tight md:tracking-normal dark:text-gray-200 md:text-4xl">
           Sponsored by forward-thinking companies.
         </h1>
-        <p className="max-w-md mx-auto mb-12 text-lg text-gray-600 dark:text-gray-400 md:text-lg">
+        <p className="max-w-md mx-auto mb-12 text-lg text-gray-600 dark:text-gray-400 text-left md:text-center md:text-lg">
           <b>Note:</b> we have removed any fake sponsors from Plutonium. The
-          following logo is a template logo from{" "}
-          <a
-            className="text-blue-600 dark:text-blue-400"
-            href="https://saurish.com/"
-            rel="noreferrer"
-          >
-            saurish.com
-          </a>
-          .
+          following are random SVG logo samples.
         </p>
         <div className="grid grid-cols-2 gap-8 mt-6 md:grid-cols-4">
           <div className="flex justify-center col-span-1 md:col-span-2 lg:col-span-1">
@@ -32,7 +24,7 @@ export default function Sponsors() {
                 fontSize="165"
                 fontFamily="Osaka"
               >
-                ss
+                nd
               </text>
             </svg>
           </div>
@@ -50,7 +42,7 @@ export default function Sponsors() {
                 fontSize="165"
                 fontFamily="Osaka"
               >
-                ss
+                nd
               </text>
             </svg>
           </div>
@@ -68,7 +60,7 @@ export default function Sponsors() {
                 fontSize="165"
                 fontFamily="Osaka"
               >
-                ss
+                nd
               </text>
             </svg>
           </div>
@@ -86,7 +78,7 @@ export default function Sponsors() {
                 fontSize="165"
                 fontFamily="Osaka"
               >
-                ss
+                nd
               </text>
             </svg>
           </div>

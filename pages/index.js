@@ -13,21 +13,21 @@ export default function Home() {
       <NextSeo
         title="Plutonium"
         description="Plutonium – where darkness meets the web."
-        canonical="https://plutonium.saurish.com/"
+        canonical="https://plutonium.vercel.app/"
         openGraph={{
-          url: "https://www.plutonium.saurish.com",
+          url: "https://plutonium.vercel.app/",
           title: "Plutonium",
           description: "Plutonium – where darkness meets the web.",
           images: [
             {
-              url: "https://og.saurish.com/**Plutonium**.png?theme=dark&md=1&fontSize=150px&images=https%3A%2F%2Fsaurish.com%2Flogos%2Flogo.png&images=https%3A%2F%2Fplutonium.saurish.com%2Fplutonium.jpeg",
+              url: "blob:https://og-playground.vercel.app/8baff750-c782-4a04-b198-7ee3dd1e1974",
             },
           ],
           site_name: "Plutonium",
         }}
         twitter={{
           handle: "@saurishhh",
-          site: "https://plutonium.saurish.com",
+          site: "https://plutonium.vercel.app/",
           cardType: "summary_large_image",
         }}
       />
