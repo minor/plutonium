@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "glob-parent": "^5.1.2",
-    "next": "^11.0.0",
+    "next": "^12.0.0",
     "next-seo": "^4.24.0",
     "next-themes": "^0.0.14",
     "react": "^17.0.2",
