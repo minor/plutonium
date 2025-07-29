@@ -1,0 +1,1 @@
+/var/folders/8h/_njzt5ws1bs94wfkpf1v5g380000gn/T/cirrus_minor_plutonium_3tkvqvzg/next.config.js
